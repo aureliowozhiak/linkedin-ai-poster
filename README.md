@@ -15,14 +15,14 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
 ## Instalação
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-repositorio.git
+   git clone https://github.com/ureliowozhiak/linkedin-ai-poster.git
    cd seu-repositorio
    ```
 2. Instale as dependências necessárias:
    ```sh
    pip install -r requirements.txt
    ```
-3. Configure as credenciais em um arquivo `.env`:
+3. Configure as credenciais em um arquivo `secret.py`:
    ```
    EMAIL=seu_email@exemplo.com
    PASSWORD=sua_senha
@@ -43,7 +43,7 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
 /
 ├── bot.py            # Script principal
 ├── requirements.txt  # Dependências do projeto
-├── .env              # Credenciais (NÃO COMITE ESTE ARQUIVO)
+├── secret.py             # Credenciais (NÃO COMITE ESTE ARQUIVO)
 └── linkedin_cookies.pkl  # Cookies salvos para login automático
 ```
 
