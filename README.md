@@ -32,7 +32,7 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
 ## Como Usar
 1. Execute o script:
    ```sh
-   python bot.py
+   python3 app.py
    ```
 2. O bot verificará se existem cookies salvos. Se não houver, ele fará login no LinkedIn e salvará os cookies.
 3. Ele acessará o feed do LinkedIn, lerá o primeiro post e gerará um comentário com a API da OpenAI.
