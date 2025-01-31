@@ -16,7 +16,7 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
 1. Clone este repositório:
    ```sh
    git clone https://github.com/aureliowozhiak/linkedin-ai-poster.git
-   cd seu-repositorio
+   cd linkedin-ai-poster
    ```
 2. Instale as dependências necessárias:
    ```sh
